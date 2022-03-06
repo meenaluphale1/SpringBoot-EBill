@@ -40,6 +40,11 @@ public class EBoardController {
 	public Set<String> getAllNames() {
 		return service.getAllNames();
 	}
+	
+	@GetMapping("/name1")
+	public Set<String> getAllNames1() {
+		return service.getAllNames();
+	}
 	@GetMapping("/allbills")
 	public List<EBoard> getAllBillsInfo() {
 		return service.getAllBillsInfo();
