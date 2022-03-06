@@ -80,10 +80,10 @@ public class EBoardController {
 		return service.addBill(bill);
 	}
 	
-	@PostMapping("/bills1")
-	public EBoard addBill1(@Valid @RequestBody EBoard bill) {
-		return service.addBill(bill);
-	}
+	/*
+	 * @PostMapping("/bills1") public EBoard addBill1(@Valid @RequestBody EBoard
+	 * bill) { return service.addBill(bill); }
+	 */
 	
 	@PutMapping("/bills/{id}")
 	public ResponseEntity<EBoard> updateBill(@Valid @RequestBody EBoard bill, @PathVariable int id) {
