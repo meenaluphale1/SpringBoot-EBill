@@ -1,5 +1,5 @@
 
-CREATE TABLE `Electricty_Board` (
+CREATE TABLE 'Electricty_Board' (
   id int NOT NULL AUTO_INCREMENT ,
   Name varchar(50) NOT NULL,
   unitsConsumed int NOT NULL,

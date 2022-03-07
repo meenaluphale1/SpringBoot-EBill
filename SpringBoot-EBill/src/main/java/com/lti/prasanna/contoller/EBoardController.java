@@ -31,10 +31,10 @@ public class EBoardController {
 	@Autowired
 	private EBoardService service;
 	
-	@GetMapping("/bills")
-	public List<Integer> getAllBills() {
-		return service.getAllBills();
-	}
+	/*
+	 * @GetMapping("/bills") public List<Integer> getAllBills() { return
+	 * service.getAllBills(); }
+	 */
 
 	@GetMapping("/name")
 	public Set<String> getAllNames() {
